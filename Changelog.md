@@ -20,17 +20,64 @@
 
 - **Micronutrient Requirements**: Calculate daily requirements for essential vitamins and minerals based on individual characteristics.
 
-- **MediMate Stroke Prediction**: Introduce the MediMate AI Model endpoint for Stroke Prediction, offering accurate predictions on the likelihood of an individual having a stroke based on health-related features.
+![Health Calculator API Change Log](https://res.cloudinary.com/ds64xs2lp/image/upload/v1743149576/hcapi_josrwg.gif)
 
-- **MediMate Calorie Burn Prediction**: Introduce the MediMate Calorie Burn Prediction endpoint, leveraging state-of-the-art machine learning to estimate calorie burn during exercise routines.
+## Change Log:
 
-#### What is it?
+##### (March, 2025)  
 
-Introducing our MediMate AI Model endpoint for Stroke Prediction! This powerful tool allows users to predict the likelihood of an individual having a stroke based on several health-related features. Our machine learning model, meticulously trained on a stroke prediction dataset, delivers accurate predictions with ease.
+#### v0.0.3: Expanded Feature Set  
 
-#### What’s New?
+### New Features:  
 
-Introducing the MediMate Calorie Burn Prediction endpoint! This cutting-edge feature enables users to estimate the number of calories burned during exercise routines. Our state-of-the-art machine learning model takes individual characteristics such as gender, age, height, and weight, as well as exercise parameters like duration, heart rate, and body temperature to provide precise calorie burn estimates during a 1 to 30 minutes exercise in kilocalories (kcal).
+🚀 **Added 17 new API endpoints for advanced health calculations:**  
+
+**Ponderal Index Calculator** - Calculates the Ponderal Index to assess weight distribution relative to height.
+
+**Karvonen Formula Calculator** - Determines target heart rate zones using the Karvonen method based on age and resting heart rate.
+
+**Geriatric BMI Calculator** - Computes BMI for older adults with adjusted interpretation based on age.
+
+**Daily Vitamin Calculator** - Estimates recommended daily vitamin intake based on age, gender, and lifestyle factors.
+
+**Keto Calculator** - Calculates macronutrient intake for a ketogenic diet based on weight, activity level, and fitness goals.
+
+**Body Roundness Index (BRI) Calculator** - Measures body roundness and fat distribution to assess health risks.
+
+**Lean Body Mass (LBM) Calculator** - Computes lean body mass using the Boer formula for men and women.
+
+**Body Surface Area (BSA) Calculator** - Determines body surface area using formulas like Du Bois, Mosteller, and others.
+
+**Blood Sugar Converter** - Converts blood glucose levels between mmol/L and mg/dL units.
+
+**Diabetes Risk Calculator** - Predicts Type 2 Diabetes risk over the next 7.5 years based on medical research and key health metrics.
+
+**HOMA-IR Calculator** - Calculates the Homeostatic Model Assessment for Insulin Resistance, a key marker of insulin sensitivity.
+
+**QUICKI Calculator** - Computes the Quantitative Insulin Sensitivity Check Index for assessing insulin resistance.
+
+**Cholesterol Ratio Calculator** - Determines cholesterol ratios (TC/HDL, LDL/HDL, and TG/HDL) to assess cardiovascular risk.
+
+**Cholesterol Units Converter** - Converts cholesterol levels between mg/dL and mmol/L for TC, HDL, and LDL.
+
+**Triglycerides Concentration Converter** - Converts triglyceride values between mg/dL and mmol/L.
+
+**VLDL Calculator** - Estimates Very Low-Density Lipoprotein (VLDL) using Friedewald and Wilson equations.
+
+**LDL Calculator** - Computes Low-Density Lipoprotein (LDL) using the Friedewald equation based on TC, HDL, and TG values. 
+
+🔹 **All endpoints support both GET & POST requests.**  
+🔹 **Metric & Imperial units are supported where applicable.**  
+🔹 **Improved response accuracy and error handling.**  
+
+---
+
+✅ **Next Steps:**  
+- Expand API functionality with more **health and wellness calculators**.  
+- Optimize processing time for faster response rates.  
+- Explore AI-powered **predictive health insights**.  
+
+---
 
 ---
 
