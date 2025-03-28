@@ -20,7 +20,7 @@
 
 - **Micronutrient Requirements**: Calculate daily requirements for essential vitamins and minerals based on individual characteristics.
 
-![Health Calculator API Change Log](https://res.cloudinary.com/ds64xs2lp/image/upload/v1743149576/hcapi_josrwg.gif)
+
 
 ## Change Log:
 
@@ -76,8 +76,6 @@
 - Expand API functionality with more **health and wellness calculators**.  
 - Optimize processing time for faster response rates.  
 - Explore AI-powered **predictive health insights**.  
-
----
 
 ---
 
