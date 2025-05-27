@@ -10,7 +10,7 @@
 The Health Calculator API is a versatile tool designed to facilitate various health-related calculations and metrics. Developed with precision and user-centricity in mind, this API aims to provide accurate insights into body composition, nutritional needs, fitness goals, and more. Whether you are a healthcare professional, fitness enthusiast, or individual seeking personalized health insights, the Health Calculator API offers a comprehensive solution tailored to your needs.
 
 - **API Marketplace**: [RapidAPI - Health Calculator API](https://rapidapi.com/kidddevs/api/health-calculator-api)
-- **Official Website**: [DaKidArts Web Services](https://dakidarts.com)
+- **Official Website**: [Health Calculator API](https://dakidarts.com/api/health-calculator-api)
 
 ---
 
