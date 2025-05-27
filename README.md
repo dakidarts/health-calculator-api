@@ -3,17 +3,6 @@
 
 # Health Calculator API - Your Comprehensive Health Solution
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Getting Started](#getting-started)
-4. [Usage](#usage)
-5. [Endpoints](#endpoints)
-6. [Examples](#examples)
-7. [Support and Community](#support-and-community)
-8. [License](#license)
-
 ---
 
 ## Overview
