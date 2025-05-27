@@ -162,8 +162,7 @@ The Health Calculator API with up to 50+ endpoints is a versatile tool designed 
 
 ✅ **Next Steps:**  
 - Expand API functionality with more **health and wellness calculators**.  
-- Optimize processing time for faster response rates.  
-- Explore AI-powered **predictive health insights**.  
+- Optimize processing time for faster response rates.
 
 ---
 
