@@ -22,61 +22,49 @@ The Health Calculator API is a versatile tool designed to facilitate various hea
 
 ---
 
-## Features
-
-- **A Body Shape Index (ABSI)**: Assess body shape and health risks.
-- **Adjusted Body Weight (AjBW)**: Calculate ideal body weight for individual health goals.
-- **Body Adiposity Index (BAI)**: Estimate body fat percentage for improved health tracking.
-- **Body Frame Size Index (BFSI)**: Determine body frame size and tailor fitness plans.
-- **Body Mass Index (BMI)**: Measure body fat based on height and weight.
-- **Body Fat Percentage**: Calculate precise body fat composition.
-- **Basal Metabolic Rate (BMR)**: Understand daily energy expenditure at rest.
-- **Daily Caloric Needs (DCN)**: Customize daily calorie intake for weight management.
-- **Daily Water Intake (DWI)**: Ensure optimal hydration levels for health and fitness.
-- **Fat-Free Mass Index (FFMI)**: Assess muscle development and fitness progress.
-- **Target Heart Rate (THR)**: Set target heart rates for effective workouts.
-- **Macronutrients Distribution**: Balance nutrition with insights into carbohydrates, proteins, and fats.
-- **Ideal Body Weight (IBW)**: Calculate ideal weight ranges for health optimization.
-
----
-
-## Getting Started
-
-To start using the Health Calculator API, follow these steps:
-
-1. **Signup**: Create an account on [RapidAPI](https://rapidapi.com/kidddevs/api/health-calculator-api/pricing) and subscribe to the Health Calculator API.
-2. **Authentication**: Obtain your API key from RapidAPI dashboard.
-3. **Documentation**: Refer to the [API Documentation](https://rapidapi.com/kidddevs/api/health-calculator-api) for detailed information on endpoints, parameters, and responses.
-4. **Integration**: Integrate the API into your application using the provided SDKs and sample codes.
-
----
-## Change log:
-
-#### v0.0.2: Expanded Feature Set 
-
-### New Features:
-
-- **US Army Body Fat Calculator**: Calculate body fat percentage based on the US Army standards.
-  
-- **US Navy Body Fat Calculator**: Determine body fat percentage using the US Navy method.
-
-- **Estimated Average Glucose (eAG)**: Estimate average blood glucose levels over a specified period.
-
-- **Estimated Energy Requirement (EER)**: Calculate the daily energy intake required for maintaining energy balance.
-
-- **Total Daily Energy Expenditure (TDEE)**: Determine total energy expenditure including basal metabolic rate and physical activity level.
-
-- **Basal Energy Expenditure (BEE)**: Calculate the energy expended at rest without any additional activity.
-
-- **Total Energy Expenditure (TEE)**: Assess the total energy expended throughout the day, including basal metabolic rate and physical activity.
-
-- **Micronutrient Requirements**: Calculate daily requirements for essential vitamins and minerals based on individual characteristics.
-
----------------
-
-![Health Calculator API Change Log](https://res.cloudinary.com/ds64xs2lp/image/upload/v1743149576/hcapi_josrwg.gif)
-
 ## Change Log:
+
+##### (May 27, 2025)  
+
+#### v0.0.4: Expanded Feature Set 
+
+## 🔥 What’s New in v0.0.4
+
+### 🫀 Cardiovascular & Diagnostic Calculators
+- **QTc (Corrected QT Interval) Calculator** – Calculates QTc using multiple formulas: Bazett, Fridericia, Framingham, and Hodges.
+- **ABI Calculator** – Computes the Ankle-Brachial Index for peripheral artery disease assessment.
+- **Aortic Valve Area (AVA) Calculator** – Estimates aortic valve area using the continuity equation.
+- **6-Minute Walk Test (6MWT) Calculator** – Estimates functional exercise capacity based on the 6-minute walk distance.
+
+### 🔬 Metabolic & Calorie Calculators
+- **RMR Calculator (Resting Metabolic Rate)** – Calculates energy burned at rest using Mifflin-St Jeor and Harris-Benedict formulas.
+- **Katch-McArdle Calculator** – Computes BMR based on lean body mass.
+- **Maintenance Calorie Calculator** – Estimates daily calorie needs for maintaining current weight.
+- **Meal Calorie Calculator** – Estimates calories in a meal based on macronutrients.
+
+### 🍽️ Nutrition & Macronutrient Calculators
+- **Fat Intake Calculator** – Estimates recommended daily fat and saturated fat intake based on activity level.
+- **Protein Calculator** – Calculates daily protein requirements in grams.
+- **Carb Calculator** – Determines ideal daily carbohydrate intake.
+- **Fiber Calculator** – Estimates recommended daily fiber intake based on sex and age.
+- **Net Carbs Calculator** – Calculates net carbs by subtracting fiber and sugar alcohols from total carbs.
+- **Simple Sugar Calculator** – Recommends max daily added sugar intake.
+- **Sodium in Salt Calculator** – Converts salt intake to sodium and vice versa.
+
+### 🧮 Diet & Lifestyle Calculators
+- **Weight Watchers Points Calculator** – Calculates WW Smart Points based on calories, sugar, saturated fat, and protein.
+
+
+### 📌 v0.0.4 Summary
+
+**Total New Endpoints:** 16  
+**Focus Areas:**  
+- Cardiovascular health  
+- Nutrition & diet  
+- Energy expenditure  
+- Clinical & diagnostic tools
+
+---
 
 ##### (March, 2025)  
 
@@ -124,6 +112,60 @@ To start using the Health Calculator API, follow these steps:
 🔹 **Metric & Imperial units are supported where applicable.**  
 🔹 **Improved response accuracy and error handling.**  
 
+---------------
+
+#### v0.0.2: Expanded Feature Set 
+
+### New Features:
+
+- **US Army Body Fat Calculator**: Calculate body fat percentage based on the US Army standards.
+  
+- **US Navy Body Fat Calculator**: Determine body fat percentage using the US Navy method.
+
+- **Estimated Average Glucose (eAG)**: Estimate average blood glucose levels over a specified period.
+
+- **Estimated Energy Requirement (EER)**: Calculate the daily energy intake required for maintaining energy balance.
+
+- **Total Daily Energy Expenditure (TDEE)**: Determine total energy expenditure including basal metabolic rate and physical activity level.
+
+- **Basal Energy Expenditure (BEE)**: Calculate the energy expended at rest without any additional activity.
+
+- **Total Energy Expenditure (TEE)**: Assess the total energy expended throughout the day, including basal metabolic rate and physical activity.
+
+- **Micronutrient Requirements**: Calculate daily requirements for essential vitamins and minerals based on individual characteristics.
+
+---------------
+
+#### Release v0.0.1
+
+### Key Features: 
+
+🔍 A Body Shape Index (ABSI): Assess body shape and health risks.
+
+📏 Adjusted Body Weight (AjBW): Calculate ideal body weight for individual health goals.
+
+📊 Body Adiposity Index (BAI): Estimate body fat percentage for improved health tracking.
+
+📐 Body Frame Size Index (BFSI): Determine body frame size and tailor fitness plans.
+
+⚖️ Body Mass Index (BMI): Measure body fat based on height and weight.
+
+🧮 Body Fat Percentage: Calculate precise body fat composition.
+
+🔥 Basal Metabolic Rate (BMR): Understand daily energy expenditure at rest.
+
+🍽️ Daily Caloric Needs (DCN): Customize daily calorie intake for weight management.
+
+💧 Daily Water Intake (DWI): Ensure optimal hydration levels for health and fitness.
+
+💪 The FFMI (Fat-Free Mass Index): Assess muscle development and fitness progress.
+
+❤️ Target Heart Rate (THR): Set target heart rates for effective workouts.
+
+🍎 Macronutrients Distribution: Balance nutrition with insights into carbohydrates, proteins, and fats.
+
+🏋️‍♀️ Ideal Body Weight (IBW): Calculate ideal weight ranges for health optimization.
+
 ---
 
 ✅ **Next Steps:**  
@@ -132,6 +174,27 @@ To start using the Health Calculator API, follow these steps:
 - Explore AI-powered **predictive health insights**.  
 
 ---
+
+For more details on the Health Calculator API, refer to the [README](https://github.com/dakidarts/health-calculator-api/blob/main/README.md).
+
+Docs: [API Docs](https://dakidarts.com/api/health-calculator-api/)
+
+🌐 Seamless Integration
+Like all our features, the Micronutrient Requirements Calculator integrates seamlessly into the Health Calculator API. Combine eAG, EER, TDEE, Stroke Prediction, Calorie Burn Prediction, Micronutrient Requirements and the BEE and TEE Calculator to create comprehensive health and wellness solutions for your applications, websites, and projects.
+
+With these exciting additions, our API continues to expand horizons in health technology. Embrace the future of health assessment and prediction with the Health Calculator API (HCA). 🩷
+
+Upgrade your applications today and be at the forefront of healthcare innovation!
+
+---------------
+
+Error Handling
+
+The API uses standard HTTP status codes to indicate the success or failure of a request. In case of an error, the response will contain an error message in JSON format. The HTTP status codes used are as follows:
+
+200: OK - The request was successful.
+400: Bad Request - The request was invalid or missing required parameters.
+500: Internal Server Error - An unexpected error occurred.
 
 ## Usage
 
@@ -147,7 +210,7 @@ X-RapidAPI-Key: YOUR_API_KEY
 
 ## Endpoints
 
-The Health Calculator API offers a range of endpoints to cater to diverse health calculation needs. Refer to the [API Documentation](https://rapidapi.com/kidddevs/api/health-calculator-api) for a complete list of endpoints, along with their descriptions and parameters.
+The Health Calculator API offers a range of endpoints to cater to diverse health calculation needs. Refer to the [API Documentation](https://dakidarts.com/api/health-calculator-api/) for a complete list of endpoints, along with their descriptions and parameters.
 
 ---
 
@@ -179,7 +242,7 @@ For any queries or support related to the Health Calculator API, feel free to re
 
 ## License
 
-© 2023 DWS. All rights reserved. This project is licensed under the MIT License.
+© 2025 DWS. All rights reserved. This project is licensed under the MIT License.
 
 ---
 
