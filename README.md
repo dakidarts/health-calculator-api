@@ -1,3 +1,6 @@
+
+![Health Calculator API Logo](https://res.cloudinary.com/ds64xs2lp/image/upload/v1703707406/cover_rui06s.png)
+
 # Health Calculator API - Your Comprehensive Health Solution
 
 ## Table of Contents
