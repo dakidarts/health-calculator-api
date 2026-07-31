@@ -1,5 +1,5 @@
 
-![Health Calculator API Logo](https://res.cloudinary.com/ds64xs2lp/image/upload/v1772716640/seo-hero_qfcyks.jpg)
+![Health Calculator API Logo](assets/hf-v1-0-1-release.jpg)
 
 # Health Calculator API - Your Comprehensive Health Solution
 
