@@ -7,7 +7,7 @@
 
 ## Overview
 
-The Health Fitness API with up to 89+ endpoints is a versatile tool designed to facilitate various health-related calculations and metrics. Developed with precision and user-centricity in mind, this API aims to provide accurate insights into body composition, nutritional needs, fitness goals, and more. Whether you are a healthcare professional, fitness enthusiast, or individual seeking personalized health insights, the Health Calculator API offers a comprehensive solution tailored to your needs.
+The Health Fitness API with up to 107+ endpoints is a versatile tool designed to facilitate various health-related calculations and metrics. Developed with precision and user-centricity in mind, this API aims to provide accurate insights into body composition, nutritional needs, fitness goals, and more. Whether you are a healthcare professional, fitness enthusiast, or individual seeking personalized health insights, the Health Calculator API offers a comprehensive solution tailored to your needs.
 
 - **API Marketplace**: [RapidAPI - Health Calculator API](https://rapidapi.com/dakidarts-dakidarts-default/api/health-calculator-api)
 - **Official Website**: [Health Fitness API](https://hefitapi.com/)
@@ -16,7 +16,53 @@ The Health Fitness API with up to 89+ endpoints is a versatile tool designed to 
 
 ## Change Log:
 
-### v1.0.0 – Major Release (Latest)
+### v1.0.1 – 17 New Endpoints + 26 Languages (Latest)
+**Released:** July 31, 2026
+
+##### 🔥 What's New in v1.0.1
+- **17 brand-new endpoints** across body composition, cardiovascular, kidney function, strength, metabolism, nutrition, recovery, and risk screening
+- **GET + POST** support on every new endpoint
+- **Structured, actionable responses** with risk categories, labels, summaries, and rich `_api_metadata_` for enterprise logging & analytics
+- **26-language response support** (up from 8) — 18 new languages: Bengali (bn), Gujarati (gu), Indonesian (id), Italian (it), Korean (ko), Marathi (mr), Dutch (nl), Punjabi (pa), Polish (pl), Romanian (ro), Russian (ru), Tamil (ta), Telugu (te), Thai (th), Turkish (tr), Urdu (ur), Vietnamese (vi), Chinese (zh)
+
+#### Body Composition & Health Screening
+- **Waist To Height (WHtR) API** — waist-to-height ratio with cardiometabolic risk classification
+- **Sarcopenia Risk API** — grip strength, calf circumference, and SARC-F screening
+
+#### Heart & Kidney Function
+- **Cardiovascular Age API** — heart age estimation with risk category
+- **Creatinine Clearance API** — Cockcroft-Gault kidney function and GFR stage classification
+
+#### Performance & Strength
+- **One Rep Max API** — 1RM with submaximal strength estimates (Epley, Brzycki, Lombardi)
+- **Allometric Scaling API** — weight-independent strength index for fair comparisons
+- **Grip Strength Ratio API** — relative grip strength normalization
+- **Aerobic Decoupling API** — cardiovascular drift analysis for pacing and durability
+
+#### Metabolism & Fuel Utilization
+- **Metabolic Rate Adaptation API** — adaptive thermogenesis and expected vs. actual burn
+- **Respiratory Quotient API** — carbohydrate vs. fat fuel utilization
+
+#### Nutrition & Fueling
+- **Glycemic Load API** — meal glycemic load with insulin-index context
+- **Daily Carb Fueling API** — training-phase-specific carbohydrate targets
+- **Sweat Rate Sodium API** — sweat loss with electrolyte replacement guidance
+- **Hyponatremia Risk API** — hydration safety during long endurance events
+
+#### Recovery & Wellness
+- **Sleep Debt Recovery API** — 7-day sleep debt with recovery forecast
+- **Caffeine Clearance API** — caffeine half-life and sleep cutoff timing
+
+#### Risk Assessment
+- **RED-S Risk API** — Relative Energy Deficiency in Sport screening
+
+**Total New Endpoints:** 17  
+**Cumulative Endpoints:** 107+  
+**Target Use Cases:** Enterprise wellness platforms, digital coaching SaaS, corporate health programs, telehealth & longevity clinics, premium fitness apps, insurance risk engines, performance analytics dashboards
+
+---
+
+### v1.0.0 – Major Release
 **Released:** March 5, 2026
 
 ##### 🔥 What’s New in v1.0.0
